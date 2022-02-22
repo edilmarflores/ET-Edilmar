@@ -1,0 +1,16 @@
+html, body {
+    font-size: larger;
+}
+
+p {
+    display: inline-block;
+    width: 50%;
+}
+
+a {
+    display: block;
+}
+
+h6 {
+    display: inline;
+}

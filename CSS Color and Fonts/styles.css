@@ -1,0 +1,21 @@
+body {
+    background-color: darkkhaki;
+}
+
+.header {
+    background-color: aquamarine;
+    font-size: 60px;
+    font-style: oblique;
+}
+
+.Bibliophile {
+    background-color: burlywood;
+    font-style: algerian;
+    font-size: 30px
+}
+
+.astrunophile {
+    background-color: cornflowerblue;
+    font-size: 30px;
+    font-style: unset;
+}
