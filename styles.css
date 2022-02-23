@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(220, 248, 244);
+    align-content: center;
+    font-size: large;
+}
+
+h1 {
+    font-size: 80px;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+p {
+    display: inline-block;
+    margin-left: 100px;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    border-style: double;
+    border-radius: 5px;
+    border-color: blue;
+}
+
+.f,.s,.t {
+    display: inline-block;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: red;
+    height: 100%;
+    padding: 10px;
+    margin: 3px;
+}
+
+ img {
+    width: 33.3%;
+    height: 100%;
+    opacity: 0.8; 
+    float: right;
+    display: inline;
+}
+
+
+
+
+
+
+
