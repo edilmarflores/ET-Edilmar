@@ -1,0 +1,43 @@
+body {
+    font-size: 25px;
+    font-family: georgia;
+}
+
+h1 {
+    color: darkgreen;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.container {
+    margin: 0px;
+    width: 70%;
+    padding-left: 110px;
+}
+
+img {
+    float: left;
+    width: 40%;
+    height: 350px;
+    margin-top: 0%;
+    margin-left: 5px;
+    padding-right: 10px;
+}
+
+.text {
+    text-align: justify; 
+}
+
+.links {
+    text-decoration: none;
+}
+
+
+
