@@ -1,0 +1,31 @@
+.flag {
+    background-color: rgb(223, 240, 241);
+    width: 310px;
+    height: 185px;
+    padding: 5px;
+    margin: auto;
+}
+
+.first {
+    background-color: #FFFFFF;
+    height: 185px;
+    width: 110px;
+    margin-right: 0%;
+    margin-bottom: 5px;
+}
+
+.second {
+    background-color: #FC3E32;
+    height: 95px;
+    width: 200px;
+    float: right;
+    margin-top: -190px;
+}
+
+.third {
+    background-color: #007E39;
+    height: 95px;
+    width: 200px;
+    float: right;
+    margin-top: -100px;
+}

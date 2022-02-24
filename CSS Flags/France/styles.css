@@ -1,0 +1,27 @@
+.flag {
+    background-color: cadetblue;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.first {
+    background-color: #002495;
+    float: left;
+    width: 100px;
+    height: 100%;
+}
+
+.second {
+    background-color: #FFFFFF;
+    float: left;
+    width: 100px;
+    height: 100%;
+}
+
+.third {
+    background-color: #ED2938;
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+}

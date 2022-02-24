@@ -1,0 +1,50 @@
+.flag {
+    background-color: #ebe5e5;
+    height: 195px;
+    width: 300px;
+    margin: auto;
+}
+
+.first {
+    background-color: #FFFFFF;
+    position: absolute;
+    display: inline-block;
+    height: 70px;
+    width: 290px;
+    margin-top: 60px;
+    margin-left: 5px;
+}
+
+.second {
+    background-color: #CE1127;
+    position: absolute;
+    display: inline-block;
+    height: 60px;
+    width: 290px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+.third {
+    background-color: #0D1D8B;
+    position: absolute;
+    display: inline-block;
+    width: 290px;
+    height: 45px;
+    margin-top: 75px;
+    margin-left: 5px;
+}
+
+.fourth {
+    background-color: #3B7827;
+    position: absolute;
+    display: inline-block;
+    position: absolute;
+    display: block;
+    width: 290px;
+    height: 60px;
+    margin-top: 130px;
+    margin-left: 5px;
+}
+

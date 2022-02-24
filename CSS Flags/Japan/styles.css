@@ -1,0 +1,27 @@
+.flag {
+    background-color: cornsilk;
+    height: 210px;
+    width: 310px;
+    margin: auto;
+}
+
+.first {
+    background-color: #FFFFFF;
+    position: absolute;
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    margin: 5px;
+}
+
+.second {
+    background-color: #BC022C;
+    position: absolute;
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    margin-left: 95px;
+    margin-top: 45px;
+    border-radius: 60px;
+}
+
