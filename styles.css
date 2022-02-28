@@ -1,48 +1,346 @@
-body {
-    background-color: rgb(220, 248, 244);
-    align-content: center;
-    font-size: large;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 h1 {
-    font-size: 80px;
-    text-decoration: underline;
-    text-align: center;
-
+    font-size: 1.9rem;
 }
 
 p {
+    font-size: 1.2rem;
+}
+
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: rgba(141, 243, 194, 0.63);
+    position: fixed;
+    top: 0%;
+    z-index: 333;
+}
+
+.container {
+    width: 96%;
+    max-width: 117rem;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.navbar h1 {
+    text-transform: uppercase;
+    color: rgb(6, 47, 94);
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul a{
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: all 0.4s ease;
+}
+
+.navbar ul a:hover {
+    color: rgb(14, 255, 255);
+    background-color: darkcyan;
+}
+
+.hero {
+    max-width: 114rem;
+    height: 40rem;
+    background: url(https://i.postimg.cc/bryzvhpq/galaxy-gbd7d9c631-1920.jpg) 
+    no-repeat center center / cover;
+    margin: 5rem auto;
+}
+
+main {
+    width: 100%;
+    max-width: 114rem;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    border-radius: 1.2rem;
+    margin-top: -10rem;
+}
+
+.main h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+main .profile-container .profile {
     display: inline-block;
-    margin-left: 100px;
-    width: 80%;
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+main .profile-container .profile .img-container {
+    width: 6rem;
+    height: 6rem;
+    background: url(https://i.postimg.cc/bryzvhpq/galaxy-gbd7d9c631-1920.jpg)no-repeat 
+    center center / cover;
+    border-radius: 0.3rem;
+}
+
+main .profile-container .profile .text {
+    margin: 0 1rem;
+    color: darkred;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.profile .text h3 {
+    text-transform: uppercase;
+}
+
+.btn {
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    padding: 0.3rem 1 rem;
+    background-color: rgb(240, 243, 75);
+    border-radius: 0.2rem;
+}
+
+main p{
+    color: rgb(8, 8, 8);
+    margin: 1rem 0;
+}
+
+.profile .text h3 {
+    text-transform: uppercase;
+}
+
+.btn {
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    padding: 0.3rem 1.5rem;
+    background-color: gold;
+    border-radius: 0.2rem;
+}
+
+main .content p{
+    color: maroon;
+    margin: 1rem 0;
+}
+
+main .content h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: midnightblue;
+    margin: 2rem 0;
+}
+
+main .content-img-container{
+    width: 100%;
+    height: 35rem;
+    background: url(https://i.postimg.cc/8CRnhLww/sunset-g391546e03-1920.jpg) 
+    no-repeat center center / cover;
+}
+
+blockquote {
+    font-size: 1.4rem;
+    padding: 1rem 2.8rem;
+    line-height: 1.6;
+    font-weight: 300;
+    box-shadow: insert 0.5rem 3rem 0 #212221;
+    background-color: azure;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+}
+
+.tags p {
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+.tags a {
+    display: inline-block;
+    padding: 0.3rem 1.5rem;
+    background-color: rgb(245, 70, 70);
+    color:rgb(0, 0, 0);
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0 0.5rem;
+}
+
+.article {
+    width: 100%;
+    background-color: aquamarine;
+    margin: 5rem 0;
+    padding: 5rem 0;
+}
+
+.article .article-heading {
+    text-transform: uppercase;
     text-align: center;
-    border-style: double;
-    border-radius: 5px;
-    border-color: blue;
+    width: 100%;
+    position: relative;
 }
 
-.f,.s,.t {
+.article-heading h5 {
+    font-size: 10rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    position: relative;
+    color: rgb(162, 224, 240);
+}
+
+.article-heading h6 {
+    font-size: 4rem;
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(224, 19, 19);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem auto;
+    gap: 5rem;
+}
+
+.cards .card-container {
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.cards .img-holder{
+    max-width: 100%;
+    height: 24rem;
+    background: url(https://i.postimg.cc/rFRQy4dh/beach-g0031d88e5-1920.jpg)
+    no-repeat center center / cover;
+    position: relative;
+}
+
+.cards .card-container.two .img-holder {
+    background: url(https://i.postimg.cc/CKCw3dH5/tree-g36f206e5a-1280.jpg)
+    no-repeat center center / cover;
+}
+
+.cards .card-container.three .img-holder {
+    background: url(https://i.postimg.cc/hjKGCVmp/mountains-g090637dcc-1920.jpg)
+    no-repeat center center / cover;
+}
+
+.cards .card-container .img-holder a {
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    padding: 0.3rem 1.5rem;
     display: inline-block;
-    border-style: ridge;
-    border-radius: 10px;
-    border-color: red;
-    height: 100%;
-    padding: 10px;
-    margin: 3px;
+    color: midnightblue;
+    font-weight: 600;
+    background-color: darksalmon;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    transition: all 0.4s ease;
 }
 
- img {
-    width: 33.3%;
-    height: 100%;
-    opacity: 0.8; 
-    float: right;
-    display: inline;
+.card-container:hover {
+    transform: translateY(-1rem);
 }
 
+.cards .card-container a {
+    background: chocolate;
+    color: darkorchid;
+}
 
+.cards .card-container .card-text {
+    background-color: rgb(245, 231, 200);
+    padding: 2rem;
+    box-shadow: 0 0 0.3rem gray;
+}
 
+.cards .card-container .card-text p {
+    font-size: 1.2rem;
+}
 
+.article .button {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.article .btn {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    font-weight: 200;
+    border-radius: none;
+    padding: 0.5rem 3rem;
+}
+
+footer {
+    background-color: rgb(11, 194, 240);
+    padding: 3rem 0;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon i {
+    font-size: 3rem;
+    color: rgb(252, 253, 251);
+    padding: 1rem;
+    transition: all 0.4s ease;
+}
+
+.icon i:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.copyright p {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    margin: 2rem 0;
+}
 
 
 
